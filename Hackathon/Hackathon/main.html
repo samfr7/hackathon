@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="car.jpg" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style2.css">
+
+  <title>HACKIGO</title>
+</head>
+
+<style>
+  .heading {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 50px;
+  }
+
+  .centering {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /*.col {
+    clip-path: circle(78.3% at 50% 6%);
+  }*/
+</style>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/gallery.html"><strong>Hackaton</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/gallery.html"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/events.html"><strong>Events</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html"><strong>About</strong></a>
+          </li>
+
+          <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-secondary btn-dark" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
+
+  <!--carosel starts-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Nature.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="car.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Nature.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="car.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fourth slide label</h5>
+          <p>Some representative placeholder content for the Fourth slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Nature.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fifth slide label</h5>
+          <p>Some representative placeholder content for the Fifth slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="car.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sixth slide label</h5>
+          <p>Some representative placeholder content for the Sixth slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img data-aos="flip-up" data-aos-duration="1000" src="car.jpg" class="d-block w-100" alt="..." height="700px">
+      </div>
+      <div class="carousel-item">
+        <img src="Nature.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>-->
+  <!-- Gallery Starts -->
+  <main style="user-select: auto;">
+
+    <section class="py-5 text-center container-fluid" style="user-select: auto;">
+      <div class="row py-lg-5" style="user-select: auto;">
+        <div class="col-lg-6 col-md-8 mx-auto" style="user-select: auto;">
+          <h1 data-aos="fade-right" data-aos-duration="1000" class="fw-light" style="user-select: auto;">KEC Hackathon
+            2K22</h1>
+          <p data-aos="fade-left" data-aos-duration="1000" class="lead text-muted" style="user-select: auto;">Something
+            short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but
+            not too short so folks don’t simply skip over it entirely.</p>
+          <p style="user-select: auto;">
+            <a href="#" data-aos="fade-right" data-aos-duration="1000" class="btn btn-primary my-2"
+              style="user-select: auto;">Main call to action</a>
+            <a href="#" data-aos="fade-left" data-aos-duration="1000" class="btn btn-secondary my-2"
+              style="user-select: auto;">Secondary action</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="album py-5 bg-light" style="user-select: auto;">
+      <h2>
+        <center>-Domains-</center>
+      </h2>
+      <div class="container" style="user-select: auto;">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="user-select: auto;">
+          <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400" class="col"
+            style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="Nature.jpg" class="w-100" />
+              </div>
+
+
+              <div class="card-body" style="user-select: auto;">
+
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="col" style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="car.jpg" class="w-100" />
+              </div>
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400" class="col"
+            style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="Nature.jpg" class="w-100" />
+              </div>
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="col" style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="Nature.jpg" class="w-100" />
+              </div>
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400" class="col"
+            style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="car.jpg" class="w-100" />
+              </div>
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="col" style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="Nature.jpg" class="w-100" />
+              </div>
+
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400" class="col"
+            style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="Nature.jpg" class="w-100" />
+              </div>
+
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="col" style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="car.jpg" class="w-100" />
+              </div>
+
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400" class="col"
+            style="user-select: auto;">
+            <div class="card shadow-sm" style="user-select: auto;">
+              <div class="bg-image hover-zoom">
+                <!--image inside box-->
+                <img src="Nature.jpg" class="w-100" />
+              </div>
+
+
+              <div class="card-body" style="user-select: auto;">
+                <p class="card-text" style="user-select: auto;">This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="ihub">
+      <center data-aos="zoom-out-up">-Our Domains-</center>
+      <div class="ihubcontent">
+        <div data-aos="fade-right" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-graduation-cap"></i></div>
+          <h2> 1 Machine Learning</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-university"></i></div>
+          <h2> 2 IOT</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-lightbulb-on"></i></div>
+          <h2> 3 Artificial Intelligence</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-users-class"></i></div>
+          <h2>4 Lorem ipsum</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-user-graduate"></i></div>
+          <h2> 5 Lorem ipsum</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-trophy"></i></div>
+          <h2> 6 Lorem ipsum</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="ihubs">
+          <div class="badge"><i class="fas fa-book-reader"></i></div>
+          <h2> 7 Lorem ipsum</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+        </div>
+      </div>
+    </div>-->
+  </main>
+
+
+
+
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

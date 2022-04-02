@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightpink;
+    height: 100%;
+    
+}
+.content{
+    padding: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+  }
+  .content h2 {
+    color: brown;
+    margin-top: 1px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+  }
+  .content p{
+    color: brown;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+  }
+  .ihub{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-image: url(Nature.jpg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 35px;
+  }
+  .ihubcontent{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .ihubs{
+    padding: 0 45px 45px;
+    margin: 0px 70px 70px 0px;
+    margin-top: 4%;
+    background-color: gray;
+    border-radius: 12px;
+    height: 370px;
+    color: lightgoldenrodyellow;
+    width: 350px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    clip-path: circle(78.3% at 50% 6%);
+}
+.ihubs:hover{background-color: lightsalmon;}
+.badge{
+    margin-top: -15%;
+    border-radius: 9999px;
+    height: 90px;
+    width: 90px;
+    font-size: 37px;
+    background-color: brown;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
